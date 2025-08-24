@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Typing-Tester</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body data-status="">
+    <header class="app-header">
+        <h1>Typing-Tester</h1>
+        <div class="controls-wrapper">
+            <div class="controls-toggle-wrapper">
+                <label for="codeToggler">
+                    <span class="icon-embed"></span>
+                </label>
+                <input id="codeToggler" type="checkbox">
+                <label for="controlsToggler">
+                    <span class="icon-cog"></span>
+                </label>
+                <input id="controlsToggler" type="checkbox">
+            </div>
+            <div class="controls">
+                <div class="controls-content">
+                    <label class="option-auto">
+                        Autojump:
+                        <input type="checkbox" id="autoAdvance"/>
+                    </label>
+        
+                    <span class="line"></span>
+        
+                    <div class="tooltip-options">
+                        <label>
+                            Zeit
+                            <input type="checkbox" id="showTimeCursor">
+                        </label>
+                        <label>
+                            Wortzähler
+                            <input type="checkbox" id="showWordsCursor">
+                        </label>
+                    </div>
+        
+                    <span class="line"></span>
+                    <label for="durationSelect">Dauer:</label>
+                    <select id="durationSelect" aria-label="Testdauer">
+                        <option value="1" selected>1&nbsp;min</option>
+                        <option value="3">3&nbsp;min</option>
+                        <option value="custom">Custom…</option>
+                    </select>
+        
+                    <label id="customMinutesWrapper" class="custom-min hidden">
+                        <span>Minuten:</span>
+                        <input id="customMinutes" type="number" min="1" max="120" step="1" inputmode="numeric" />
+                    </label>
+                </div>
+    
+                <div class="timer-wrapper">
+                    <button id="startBtn" type="button" class="btn-primary icon-play icon-right">Start</button>
+                    <label for="timerCount" class="timer" aria-live="polite">
+                        <span id="timeLeft" class="icon-stopwatch">00:00</span>
+                        <span id="timePlaceholder" class="icon-stopwatch">00:00</span>
+                        <input id="timerCount" type="checkbox">
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="app-main">
+        <section id="wordsArea" aria-label="Wortliste">
+            <div id="wordsContainer" class="words"></div>
+        </section>
+
+        <section class="input-area">
+            <label for="typingInput" class="visually-hidden">Tippe hier</label>
+            <input id="typingInput" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Hier eingeben..." />
+        </section>
+
+        <!-- <section>
+            <pre>
+                <code class="language-scss">
+// scss imports
+@import './config';
+@import './globals';
+@import './helpers';
+@import './pages';
+
+// modules
+@import './_modules/prism';</code>
+            </pre>
+        </section> -->
+
+        <section id="summary" class="summary hidden" aria-live="polite" aria-atomic="true">
+            <h2>Ergebnis</h2>
+            <ul class="stats">
+                <li><strong>Wörter pro Minute:</strong> <span id="wpm">0</span> WPM</li>
+                <li>
+                    <strong>Tastenanschläge:</strong> <span id="keystrokes">0</span>
+                    <small class="keystroke-wrapper">( <span id="correctKeys" class="correct">0</span> | <span id="wrongKeys" class="wrong">0</span> )</small>
+                </li>
+                <li><strong>Genauigkeit:</strong> <span id="accuracy">0</span>%</li>
+                <li><strong>Korrekte Wörter:</strong> <span id="correctWords">0</span></li>
+                <li><strong>Falsche Wörter:</strong> <span id="wrongWords">0</span></li>
+            </ul>
+            <div class="btn-container">
+                <label for="graphToggler" class="btn-secondary icon-stats-dots">Graph</label>
+                <button id="restartBtn" class="btn-primary icon-spinner" type="button">Neu starten</button>
+            </div>
+            <input id="graphToggler" type="checkbox">
+            <div id="graphWrapper">
+                <div id="graph">
+                    <canvas id="wpmChart" width="600" height="300"></canvas>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <small>Hinweis: Wörter werden aus <code>words.json</code> geladen.</small>
+        <small>
+            <a class="icon-instagram" href="https://www.instagram.com/zentolik/" title="Zu meinem Instagram Profil" target="_blank"></a>
+            <a class="icon-x" href="https://x.com/zeno_gallery" title="Zu meinem X Profil" target="_blank"></a>
+            <a class="icon-steam" href="https://steamcommunity.com/id/Zentolik/" title="Zu meinem Steam Profil" target="_blank"></a>
+            <a class="icon-paypal" href="https://www.youtube.com/watch?v=989-7xsRLR4" title="Give me some Manäi über PayPal" target="_blank"></a>
+        </small>
+    </footer>
+
+    <div id="popup" class="popup-wrapper">
+        <div class="popup-content">
+            <span class="popup-closer icon-cancel"></span>
+        </div>
+    </div>
+
+    <div id="cursorTooltip" class="cursor-tooltip hidden">
+        <span id="cursorTooltipTime"></span>
+        <span id="cursorTooltipWords"></span>
+    </div>
+
+    <script src="./js/script.js" defer></script>
+    <script src="./js/load_settings.js" defer></script>
+    <script src="./js/_modules/prism.js" defer></script>
+    <script src="./js/_modules/music/player.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

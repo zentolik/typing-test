@@ -1,0 +1,13 @@
+{
+  "name": "jscss",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build-config": "node generate-scss.js",
+    "watch-config": "nodemon --watch css/scss/config.json --exec \"node generate-scss.js\""
+  },
+  "devDependencies": {
+    "json5": "^2.2.3",
+    "nodemon": "^3.1.10"
+  }
+}

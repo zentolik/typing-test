@@ -1,0 +1,47 @@
+@mixin _title($tooltip, $pos: right) {
+    position: relative;
+    &::after {
+        position: absolute;
+        display: block;
+        content: $tooltip;
+        top: 0;
+        color: _config($colorMap, 'text');
+        font-size: .75rem;
+        font-weight: 400;
+        text-align: start;
+        line-height: 1.1rem;
+        background: _config($colorMap, 'panel');
+        border: 1px solid _config($colorMap, 'light', .12);
+        border-radius: 5px;
+        padding: .45rem .6rem;
+        width: max-content;
+        max-width: 10rem;
+        pointer-events: none;
+        opacity: 0;
+        z-index: 1;
+        transition: opacity .3s ease,
+                    transform .45s ease;
+        @if $pos == right {
+            transform: translateX(75%);
+            right: 0;
+        }
+        @if $pos == left {
+            transform: translateX(-75%);
+            left: 0;
+        }
+        @content;
+    }
+    &:hover,
+    &:focus,
+    &:focus-within {
+        &::after {
+            @if $pos == right {
+                transform: translateX(100%);
+            }
+            @if $pos == left {
+                transform: translateX(-100%);
+            }
+            opacity: 1;
+        }
+    }
+}

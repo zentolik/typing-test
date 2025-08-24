@@ -1,0 +1,11 @@
+@use "sass:map";
+
+@function _config($map, $key, $opacity: 1) {
+    $color: map.get($map, $key);
+
+    @if type-of($color) == 'color' {
+        @return hsla(hue($color), saturation($color), lightness($color), $opacity);
+    }
+
+    @return $color;
+}

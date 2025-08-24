@@ -1,0 +1,2870 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.woff?z02j9q") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.icon-color.icon-javascript:before {
+  color: hsl(53, 93%, 54%);
+}
+.icon-color.icon-html5:before {
+  color: hsl(13, 77%, 52%);
+}
+.icon-color.icon-css3:before {
+  color: hsl(205, 79%, 40%);
+}
+.icon-color.icon-sass:before {
+  color: hsl(330, 50%, 60%);
+}
+.icon-color.icon-instagram:before {
+  color: hsl(349, 75%, 57%);
+}
+
+.icon-json:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e907";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-json.icon-after::after {
+  display: inline-block;
+  content: "\e907";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-json.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-javascript:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e908";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-javascript.icon-after::after {
+  display: inline-block;
+  content: "\e908";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-javascript.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-github:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e906";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-github.icon-after::after {
+  display: inline-block;
+  content: "\e906";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-github.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-html5:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e900";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-html5.icon-after::after {
+  display: inline-block;
+  content: "\e900";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-html5.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-css3:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e901";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-css3.icon-after::after {
+  display: inline-block;
+  content: "\e901";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-css3.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-sass:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e902";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sass.icon-after::after {
+  display: inline-block;
+  content: "\e902";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sass.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-steam:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e903";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-steam.icon-after::after {
+  display: inline-block;
+  content: "\e903";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-steam.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-instagram:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e904";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-instagram.icon-after::after {
+  display: inline-block;
+  content: "\e904";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-instagram.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-x:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e905";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-x.icon-after::after {
+  display: inline-block;
+  content: "\e905";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-x.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-twitter:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea96";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-twitter.icon-after::after {
+  display: inline-block;
+  content: "\ea96";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-twitter.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-paypal:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ead8";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-paypal.icon-after::after {
+  display: inline-block;
+  content: "\ead8";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-paypal.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-file-empty:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e924";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-file-empty.icon-after::after {
+  display: inline-block;
+  content: "\e924";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-file-empty.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-file-text:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e926";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-file-text.icon-after::after {
+  display: inline-block;
+  content: "\e926";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-file-text.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-file-picture:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e927";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-file-picture.icon-after::after {
+  display: inline-block;
+  content: "\e927";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-file-picture.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-file-music:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e928";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-file-music.icon-after::after {
+  display: inline-block;
+  content: "\e928";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-file-music.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-folder:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e92f";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-folder.icon-after::after {
+  display: inline-block;
+  content: "\e92f";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-folder.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-folder-open:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e930";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-folder-open.icon-after::after {
+  display: inline-block;
+  content: "\e930";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-folder-open.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-folder-plus:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e931";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-folder-plus.icon-after::after {
+  display: inline-block;
+  content: "\e931";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-folder-plus.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-folder-minus:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e932";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-folder-minus.icon-after::after {
+  display: inline-block;
+  content: "\e932";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-folder-minus.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-folder-download:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e933";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-folder-download.icon-after::after {
+  display: inline-block;
+  content: "\e933";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-folder-download.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-folder-upload:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e934";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-folder-upload.icon-after::after {
+  display: inline-block;
+  content: "\e934";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-folder-upload.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-stopwatch:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e952";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-stopwatch.icon-after::after {
+  display: inline-block;
+  content: "\e952";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-stopwatch.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-download:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e960";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-download.icon-after::after {
+  display: inline-block;
+  content: "\e960";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-download.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-undo:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e967";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-undo.icon-after::after {
+  display: inline-block;
+  content: "\e967";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-undo.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-quotes-left:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e977";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-quotes-left.icon-after::after {
+  display: inline-block;
+  content: "\e977";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-quotes-left.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-quotes-right:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e978";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-quotes-right.icon-after::after {
+  display: inline-block;
+  content: "\e978";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-quotes-right.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-spinner:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e984";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-spinner.icon-after::after {
+  display: inline-block;
+  content: "\e984";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-spinner.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-cog:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e994";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-cog.icon-after::after {
+  display: inline-block;
+  content: "\e994";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-cog.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-stats-dots:not(.icon-after)::before {
+  display: inline-block;
+  content: "\e99b";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-stats-dots.icon-after::after {
+  display: inline-block;
+  content: "\e99b";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-stats-dots.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-warning:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea07";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-warning.icon-after::after {
+  display: inline-block;
+  content: "\ea07";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-warning.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-notification:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea08";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-notification.icon-after::after {
+  display: inline-block;
+  content: "\ea08";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-notification.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-question:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea09";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-question.icon-after::after {
+  display: inline-block;
+  content: "\ea09";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-question.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-info:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea0c";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-info.icon-after::after {
+  display: inline-block;
+  content: "\ea0c";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-info.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-cancel:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea0d";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-cancel.icon-after::after {
+  display: inline-block;
+  content: "\ea0d";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-cancel.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-blocked:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea0e";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-blocked.icon-after::after {
+  display: inline-block;
+  content: "\ea0e";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-blocked.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-cross:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea0f";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-cross.icon-after::after {
+  display: inline-block;
+  content: "\ea0f";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-cross.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-checkmark:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea10";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-checkmark.icon-after::after {
+  display: inline-block;
+  content: "\ea10";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-checkmark.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-play:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea1c";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-play.icon-after::after {
+  display: inline-block;
+  content: "\ea1c";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-play.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-pause:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea1d";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-pause.icon-after::after {
+  display: inline-block;
+  content: "\ea1d";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-pause.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-stop:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea1e";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-stop.icon-after::after {
+  display: inline-block;
+  content: "\ea1e";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-stop.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-backward:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea1f";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-backward.icon-after::after {
+  display: inline-block;
+  content: "\ea1f";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-backward.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-forward:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea20";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-forward.icon-after::after {
+  display: inline-block;
+  content: "\ea20";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-forward.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-play-circle:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea15";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-play-circle.icon-after::after {
+  display: inline-block;
+  content: "\ea15";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-play-circle.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-pause-circle:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea16";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-pause-circle.icon-after::after {
+  display: inline-block;
+  content: "\ea16";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-pause-circle.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-stop-circle:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea17";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-stop-circle.icon-after::after {
+  display: inline-block;
+  content: "\ea17";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-stop-circle.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-previous-circle:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea18";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-previous-circle.icon-after::after {
+  display: inline-block;
+  content: "\ea18";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-previous-circle.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-next-circle:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea19";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-next-circle.icon-after::after {
+  display: inline-block;
+  content: "\ea19";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-next-circle.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-backward-circle:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea1a";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-backward-circle.icon-after::after {
+  display: inline-block;
+  content: "\ea1a";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-backward-circle.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-forward-circle:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea1b";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-forward-circle.icon-after::after {
+  display: inline-block;
+  content: "\ea1b";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-forward-circle.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-checkbox-unchecked:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea52";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-checkbox-unchecked.icon-after::after {
+  display: inline-block;
+  content: "\ea52";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-checkbox-unchecked.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-checkbox-checked:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea53";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-checkbox-checked.icon-after::after {
+  display: inline-block;
+  content: "\ea53";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-checkbox-checked.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-radio-unchecked:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea56";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-radio-unchecked.icon-after::after {
+  display: inline-block;
+  content: "\ea56";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-radio-unchecked.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-radio-checked:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea54";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-radio-checked.icon-after::after {
+  display: inline-block;
+  content: "\ea54";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-radio-checked.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-radio-checked2:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea55";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-radio-checked2.icon-after::after {
+  display: inline-block;
+  content: "\ea55";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-radio-checked2.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-embed:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea80";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-embed.icon-after::after {
+  display: inline-block;
+  content: "\ea80";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-embed.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background: hsl(222, 47%, 11%);
+  color: hsl(220, 13%, 91%);
+  font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+body {
+  overflow-x: hidden;
+}
+body::selection {
+  background: hsl(239, 84%, 67%);
+  color: hsl(0, 0%, 100%);
+}
+
+section {
+  max-width: inherit;
+}
+
+code {
+  background: hsla(0, 0%, 100%, 0.06);
+  padding: 0.15rem 0.35rem;
+  border-radius: 6px;
+}
+
+label,
+input[type=checkbox],
+select {
+  cursor: pointer;
+  accent-color: hsl(239, 84%, 67%);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+  border: 0;
+  padding: 0;
+  margin: -1px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.btn-primary,
+.btn-secondary,
+[type=button] {
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  border-radius: 8px;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  font-weight: 600;
+  transition: transform 0.05s ease, opacity 0.2s ease, background 0.2s ease;
+}
+
+.btn-primary {
+  background: hsl(239, 84%, 67%);
+  color: hsl(0, 0%, 100%);
+}
+.btn-primary::selection {
+  background: hsl(0, 0%, 100%);
+  color: hsl(239, 84%, 67%);
+}
+.btn-primary:hover, .btn-primary:focus {
+  background: hsl(239, 84%, 62%);
+}
+.btn-primary:active {
+  transform: translateY(1px);
+}
+
+.btn-secondary {
+  background: hsla(0, 0%, 100%, 0.06);
+  color: hsl(220, 13%, 91%);
+  border: 1px solid hsla(0, 0%, 100%, 0.12);
+}
+.btn-secondary:hover, .btn-secondary:focus {
+  background: hsla(0, 0%, 50%, 0.06);
+}
+.btn-secondary:active {
+  transform: translateY(1px);
+}
+
+.correct {
+  color: hsl(142, 71%, 45%);
+}
+
+.wrong {
+  color: hsl(0, 84%, 60%);
+}
+
+.app-header, .app-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+@media (max-width: 1200px) {
+  .app-header {
+    flex-direction: column;
+  }
+}
+.app-header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+.app-header .controls-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+@media (max-width: 960px) {
+  .app-header .controls-wrapper {
+    flex-direction: column;
+  }
+}
+.app-header .controls-wrapper .controls-toggle-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  height: 3.7rem;
+}
+@media (max-width: 960px) {
+  .app-header .controls-wrapper .controls-toggle-wrapper {
+    justify-content: center;
+    height: fit-content;
+  }
+}
+.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 3;
+}
+.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > span {
+  position: relative;
+}
+.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > span::after {
+  position: absolute;
+  display: block;
+  content: "Code anzeigen";
+  top: 0;
+  color: hsl(220, 13%, 91%);
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: start;
+  line-height: 1.1rem;
+  background: hsl(221, 39%, 11%);
+  border: 1px solid hsla(0, 0%, 100%, 0.12);
+  border-radius: 5px;
+  padding: 0.45rem 0.6rem;
+  width: max-content;
+  max-width: 10rem;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.3s ease, transform 0.45s ease;
+  transform: translateX(75%);
+  right: 0;
+}
+.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > span:hover::after, .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > span:focus::after, .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > span:focus-within::after {
+  transform: translateX(100%);
+  opacity: 1;
+}
+.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > span::before {
+  margin-right: unset;
+}
+.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler]:hover, .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler]:focus {
+  color: hsla(218, 11%, 65%, 0.65);
+}
+.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler]:hover > span::after, .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler]:focus > span::after {
+  transform: translateX(100%);
+  opacity: 1;
+}
+.app-header .controls-wrapper .controls-toggle-wrapper #codeToggler {
+  display: none !important;
+}
+.app-header .controls-wrapper .controls-toggle-wrapper [for=controlsToggler] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  z-index: 2;
+}
+.app-header .controls-wrapper .controls-toggle-wrapper [for=controlsToggler] > span {
+  position: relative;
+}
+.app-header .controls-wrapper .controls-toggle-wrapper [for=controlsToggler] > span::after {
+  position: absolute;
+  display: block;
+  content: "Einstellungen öffnen";
+  top: 0;
+  color: hsl(220, 13%, 91%);
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: start;
+  line-height: 1.1rem;
+  background: hsl(221, 39%, 11%);
+  border: 1px solid hsla(0, 0%, 100%, 0.12);
+  border-radius: 5px;
+  padding: 0.45rem 0.6rem;
+  width: max-content;
+  max-width: 10rem;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.3s ease, transform 0.45s ease;
+  transform: translateX(75%);
+  right: 0;
+}
+.app-header .controls-wrapper .controls-toggle-wrapper [for=controlsToggler] > span:hover::after, .app-header .controls-wrapper .controls-toggle-wrapper [for=controlsToggler] > span:focus::after, .app-header .controls-wrapper .controls-toggle-wrapper [for=controlsToggler] > span:focus-within::after {
+  transform: translateX(100%);
+  opacity: 1;
+}
+.app-header .controls-wrapper .controls-toggle-wrapper [for=controlsToggler] > span::before {
+  margin-right: unset;
+}
+.app-header .controls-wrapper .controls-toggle-wrapper [for=controlsToggler]:hover, .app-header .controls-wrapper .controls-toggle-wrapper [for=controlsToggler]:focus {
+  color: hsla(218, 11%, 65%, 0.65);
+}
+.app-header .controls-wrapper .controls-toggle-wrapper [for=controlsToggler]:hover > span::after, .app-header .controls-wrapper .controls-toggle-wrapper [for=controlsToggler]:focus > span::after {
+  transform: translateX(100%);
+  opacity: 1;
+}
+.app-header .controls-wrapper .controls-toggle-wrapper #controlsToggler {
+  display: none !important;
+}
+.app-header .controls-wrapper .controls {
+  display: block;
+  width: fit-content;
+  height: 3.7rem;
+  background: hsla(0, 0%, 100%, 0.03);
+  border: 1px solid hsla(0, 0%, 100%, 0.06);
+  padding-inline: 0.75rem;
+  border-radius: 14px;
+  box-shadow: "0 10px 25px hsla(0,0%,0%,.35)";
+}
+@media (max-width: 1200px) {
+  .app-header .controls-wrapper .controls {
+    width: 100%;
+  }
+}
+.app-header .controls-wrapper .controls .controls-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-right: 0;
+  align-items: center;
+  float: left;
+  max-width: 0vw;
+  height: 100%;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-width 1s cubic-bezier(0.51, 0.02, 0.38, 1.22), opacity 1s ease, margin-right 0.45s ease 0.55s;
+}
+.app-header .controls-wrapper .controls .controls-content > *:not(.line) {
+  margin-block: 0.5rem;
+}
+.app-header .controls-wrapper .controls .controls-content input[type=checkbox] {
+  width: 1rem;
+  height: 1rem;
+}
+.app-header .controls-wrapper .controls .controls-content .line {
+  display: block;
+  width: 1px;
+  height: 2rem;
+  background: hsla(0, 0%, 100%, 0.06);
+}
+.app-header .controls-wrapper .controls .controls-content .option-auto {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  position: relative;
+}
+.app-header .controls-wrapper .controls .controls-content .option-auto::after {
+  position: absolute;
+  display: block;
+  content: "Automatisch zum nächsten Wort springen";
+  top: 0;
+  color: hsl(220, 13%, 91%);
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: start;
+  line-height: 1.1rem;
+  background: hsl(221, 39%, 11%);
+  border: 1px solid hsla(0, 0%, 100%, 0.12);
+  border-radius: 5px;
+  padding: 0.45rem 0.6rem;
+  width: max-content;
+  max-width: 10rem;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.3s ease, transform 0.45s ease;
+  transform: translateX(75%);
+  right: 0;
+}
+.app-header .controls-wrapper .controls .controls-content .option-auto:hover::after, .app-header .controls-wrapper .controls .controls-content .option-auto:focus::after, .app-header .controls-wrapper .controls .controls-content .option-auto:focus-within::after {
+  transform: translateX(100%);
+  opacity: 1;
+}
+.app-header .controls-wrapper .controls .controls-content .tooltip-options {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.app-header .controls-wrapper .controls .controls-content .tooltip-options label {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 100%;
+  font-size: 0.8rem;
+}
+.app-header .controls-wrapper .controls .controls-content .tooltip-options label #showTimeCursor,
+.app-header .controls-wrapper .controls .controls-content .tooltip-options label #showWordsCursor {
+  width: 0.8rem;
+  margin: unset;
+  margin-left: 0.5rem;
+}
+.app-header .controls-wrapper .controls .controls-content .tooltip-options label #showTimeCursor {
+  position: relative;
+}
+.app-header .controls-wrapper .controls .controls-content .tooltip-options label #showTimeCursor::after {
+  position: absolute;
+  display: block;
+  content: "Zeit am Cursor anzeigen";
+  top: 0;
+  color: hsl(220, 13%, 91%);
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: start;
+  line-height: 1.1rem;
+  background: hsl(221, 39%, 11%);
+  border: 1px solid hsla(0, 0%, 100%, 0.12);
+  border-radius: 5px;
+  padding: 0.45rem 0.6rem;
+  width: max-content;
+  max-width: 10rem;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.3s ease, transform 0.45s ease;
+  transform: translateX(75%);
+  right: 0;
+}
+.app-header .controls-wrapper .controls .controls-content .tooltip-options label #showTimeCursor:hover::after, .app-header .controls-wrapper .controls .controls-content .tooltip-options label #showTimeCursor:focus::after, .app-header .controls-wrapper .controls .controls-content .tooltip-options label #showTimeCursor:focus-within::after {
+  transform: translateX(100%);
+  opacity: 1;
+}
+.app-header .controls-wrapper .controls .controls-content .tooltip-options label #showWordsCursor {
+  position: relative;
+}
+.app-header .controls-wrapper .controls .controls-content .tooltip-options label #showWordsCursor::after {
+  position: absolute;
+  display: block;
+  content: "Wortzähler am Cursor anzeigen";
+  top: 0;
+  color: hsl(220, 13%, 91%);
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: start;
+  line-height: 1.1rem;
+  background: hsl(221, 39%, 11%);
+  border: 1px solid hsla(0, 0%, 100%, 0.12);
+  border-radius: 5px;
+  padding: 0.45rem 0.6rem;
+  width: max-content;
+  max-width: 10rem;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.3s ease, transform 0.45s ease;
+  transform: translateX(75%);
+  right: 0;
+}
+.app-header .controls-wrapper .controls .controls-content .tooltip-options label #showWordsCursor:hover::after, .app-header .controls-wrapper .controls .controls-content .tooltip-options label #showWordsCursor:focus::after, .app-header .controls-wrapper .controls .controls-content .tooltip-options label #showWordsCursor:focus-within::after {
+  transform: translateX(100%);
+  opacity: 1;
+}
+.app-header .controls-wrapper .controls .timer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  height: 100%;
+}
+.app-header .controls-wrapper .controls .timer-wrapper #startBtn {
+  z-index: 1;
+  position: relative;
+}
+.app-header .controls-wrapper .controls .timer-wrapper #startBtn::after {
+  position: absolute;
+  display: block;
+  content: "Timer startet automatisch bei Eingabe von Worten";
+  top: 0;
+  color: hsl(220, 13%, 91%);
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: start;
+  line-height: 1.1rem;
+  background: hsl(221, 39%, 11%);
+  border: 1px solid hsla(0, 0%, 100%, 0.12);
+  border-radius: 5px;
+  padding: 0.45rem 0.6rem;
+  width: max-content;
+  max-width: 10rem;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.3s ease, transform 0.45s ease;
+  transform: translateX(75%);
+  right: 0;
+}
+.app-header .controls-wrapper .controls .timer-wrapper #startBtn:hover::after, .app-header .controls-wrapper .controls .timer-wrapper #startBtn:focus::after, .app-header .controls-wrapper .controls .timer-wrapper #startBtn:focus-within::after {
+  transform: translateX(100%);
+  opacity: 1;
+}
+body[data-status=app-running] .app-header .controls-wrapper .controls .timer-wrapper #startBtn::before {
+  content: "\ea1e";
+}
+body[data-status=app-running] .app-header .controls-wrapper .controls .timer-wrapper #startBtn::after {
+  content: "Aktuelle Runde stoppen";
+}
+.app-header .controls-wrapper:has(#controlsToggler:checked) .controls .controls-content {
+  max-width: 100vw;
+  margin-right: 0.75rem;
+  opacity: 1;
+  overflow: unset;
+  transition: max-width 1s cubic-bezier(0.51, 0.02, 0.38, 1.22), opacity 0.75s ease 0.25s, margin-right 0.45s ease;
+}
+.app-header .controls-wrapper:has(#controlsToggler:checked) [for=controlsToggler] > span::after {
+  content: "Einstellungen schließen";
+}
+.app-header select,
+.app-header input[type=number] {
+  background: hsl(221, 39%, 11%);
+  color: hsl(220, 13%, 91%);
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
+  padding: 0.45rem 0.6rem;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+.app-header select:focus,
+.app-header input[type=number]:focus {
+  border-color: hsl(239, 84%, 67%);
+}
+.app-header select {
+  appearance: base-select;
+}
+.app-header input[type=number] {
+  width: 4rem;
+}
+.app-header .custom-min {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.app-header .timer {
+  margin-left: 0.25rem;
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
+  color: hsl(218, 11%, 65%);
+  background: hsl(226, 51%, 8%);
+  padding: 0.35rem 0.6rem;
+  border-radius: 10px;
+  border: 1px solid hsla(0, 0%, 100%, 0.08);
+  cursor: pointer;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.app-header .timer::after {
+  position: absolute;
+  display: block;
+  content: "Timer ausblenden";
+  top: 0;
+  color: hsl(220, 13%, 91%);
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: start;
+  line-height: 1.1rem;
+  background: hsl(221, 39%, 11%);
+  border: 1px solid hsla(0, 0%, 100%, 0.12);
+  border-radius: 5px;
+  padding: 0.45rem 0.6rem;
+  width: max-content;
+  max-width: 10rem;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.3s ease, transform 0.45s ease;
+  transform: translateX(75%);
+  right: 0;
+}
+.app-header .timer:hover::after, .app-header .timer:focus::after, .app-header .timer:focus-within::after {
+  transform: translateX(100%);
+  opacity: 1;
+}
+.app-header .timer #timePlaceholder {
+  position: relative;
+  text-decoration: line-through;
+}
+.app-header .timer #timerCount,
+.app-header .timer #timePlaceholder {
+  display: none;
+}
+.app-header .timer:has(#timerCount:checked) {
+  color: hsla(218, 11%, 65%, 0.65);
+}
+.app-header .timer:has(#timerCount:checked)::after {
+  content: "Timer einblenden";
+}
+.app-header .timer:has(#timerCount:checked) #timeLeft {
+  display: none;
+}
+.app-header .timer:has(#timerCount:checked) #timePlaceholder {
+  display: inline-block;
+}
+.app-header .timer:hover, .app-header .timer:focus {
+  color: hsla(218, 11%, 65%, 0.65);
+}
+
+.app-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+#wordsArea {
+  background: hsla(0, 0%, 100%, 0.03);
+  border: 1px solid hsla(0, 0%, 100%, 0.06);
+  border-radius: 16px;
+  padding: 1rem;
+  height: 6.5rem;
+  box-shadow: "0 10px 25px hsla(0,0%,0%,.35)";
+  overflow-y: hidden;
+}
+
+.words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.35rem;
+  line-height: 2.1rem;
+  user-select: none;
+}
+.words .word {
+  position: relative;
+  padding: 0 0.5rem;
+  border-radius: 8px;
+  transition: background 0.15s ease, transform 0.15s ease, outline-color 0.2s ease;
+  outline: 2px solid transparent;
+}
+.words .word.current {
+  background: hsla(239, 84%, 67%, 0.12);
+  outline-color: hsla(239, 84%, 67%, 0.35);
+  transform: translateY(-1px);
+}
+.words .word.done {
+  opacity: 0.35;
+}
+.words .char.ok {
+  color: hsl(142, 71%, 45%);
+}
+.words .char.err {
+  color: hsl(0, 84%, 60%);
+}
+.words .char.pending {
+  color: hsl(218, 11%, 65%);
+}
+
+.input-area {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+.input-area input[type=text] {
+  width: 100%;
+  background: hsl(221, 39%, 11%);
+  color: hsl(220, 13%, 91%);
+  border: 1px solid hsla(0, 0%, 100%, 0.12);
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  outline: none;
+  font-size: 1.1rem;
+  letter-spacing: 0.2px;
+  transition: opacity 0.2s ease;
+}
+.input-area input[type=text]:focus {
+  border-color: hsl(239, 84%, 67%);
+}
+.input-area input[type=text]:disabled {
+  opacity: 0.5;
+  cursor: no-drop;
+}
+
+.summary {
+  background: hsla(0, 0%, 100%, 0.03);
+  border: 1px solid hsla(0, 0%, 100%, 0.06);
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: "0 10px 25px hsla(0,0%,0%,.35)";
+}
+.summary h2 {
+  margin: 0.25rem 0 1rem;
+}
+.summary .stats {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+  display: grid;
+  gap: 0.35rem;
+}
+.summary .stats li {
+  color: hsl(220, 13%, 91%);
+}
+.summary .stats strong {
+  color: hsl(218, 11%, 65%);
+  font-weight: 600;
+}
+.summary #graphWrapper {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease, opacity 0.55s ease;
+}
+.summary [for=graphToggler] {
+  position: relative;
+  z-index: 1;
+}
+.summary [for=graphToggler]::after {
+  position: absolute;
+  display: block;
+  content: "Graph für deine Statistiken anzeigen";
+  top: 0;
+  color: hsl(220, 13%, 91%);
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: start;
+  line-height: 1.1rem;
+  background: hsl(221, 39%, 11%);
+  border: 1px solid hsla(0, 0%, 100%, 0.12);
+  border-radius: 5px;
+  padding: 0.45rem 0.6rem;
+  width: max-content;
+  max-width: 10rem;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.3s ease, transform 0.45s ease;
+  transform: translateX(75%);
+  right: 0;
+}
+.summary [for=graphToggler]:hover::after, .summary [for=graphToggler]:focus::after, .summary [for=graphToggler]:focus-within::after {
+  transform: translateX(100%);
+  opacity: 1;
+}
+.summary #graphToggler {
+  display: none;
+}
+.summary #graphToggler:checked + #graphWrapper {
+  max-height: 600px;
+  opacity: 1;
+}
+.summary #restartBtn {
+  display: flex;
+  gap: 0.4em;
+  position: relative;
+}
+.summary #restartBtn::after {
+  position: absolute;
+  display: block;
+  content: "Eine neue Runde starten";
+  top: 0;
+  color: hsl(220, 13%, 91%);
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: start;
+  line-height: 1.1rem;
+  background: hsl(221, 39%, 11%);
+  border: 1px solid hsla(0, 0%, 100%, 0.12);
+  border-radius: 5px;
+  padding: 0.45rem 0.6rem;
+  width: max-content;
+  max-width: 10rem;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.3s ease, transform 0.45s ease;
+  transform: translateX(75%);
+  right: 0;
+}
+.summary #restartBtn:hover::after, .summary #restartBtn:focus::after, .summary #restartBtn:focus-within::after {
+  transform: translateX(100%);
+  opacity: 1;
+}
+.summary #restartBtn::before {
+  margin-right: unset;
+  transform: rotate(0deg);
+}
+.summary #restartBtn:hover::before, .summary #restartBtn:focus::before {
+  transform: rotate(360deg);
+  transition: transform 0.4s ease-in-out;
+}
+
+.app-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  opacity: 0.65;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.cursor-tooltip {
+  position: fixed;
+  pointer-events: none;
+  background: hsla(0, 0%, 100%, 0.03);
+  border: 1px solid hsla(0, 0%, 100%, 0.03);
+  backdrop-filter: blur(8px);
+  color: hsl(0, 0%, 100%);
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  z-index: 9999;
+  transform: translate(-45%, 75%);
+  transition: opacity 0.1s ease;
+}
+
+#popup.popup-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: none;
+}
+#popup.popup-wrapper::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: hsla(0, 0%, 0%, 0.45);
+  z-index: -1;
+}
+#popup.popup-wrapper .popup-content {
+  position: relative;
+  width: 75vw;
+  max-width: 800px;
+  height: 75vh;
+  max-height: 650px;
+  background: hsl(222, 47%, 11%);
+  border: 1px solid hsla(0, 0%, 100%, 0.06);
+  border-radius: 16px;
+  box-shadow: "0 10px 25px hsla(0,0%,0%,.35)";
+}
+#popup.popup-wrapper .popup-content .popup-closer {
+  position: relative;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0.75rem;
+  opacity: 1;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+#popup.popup-wrapper .popup-content .popup-closer::after {
+  position: absolute;
+  display: block;
+  content: "Popup schließen";
+  top: 0;
+  color: hsl(220, 13%, 91%);
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: start;
+  line-height: 1.1rem;
+  background: hsl(221, 39%, 11%);
+  border: 1px solid hsla(0, 0%, 100%, 0.12);
+  border-radius: 5px;
+  padding: 0.45rem 0.6rem;
+  width: max-content;
+  max-width: 10rem;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.3s ease, transform 0.45s ease;
+  transform: translateX(75%);
+  right: 0;
+}
+#popup.popup-wrapper .popup-content .popup-closer:hover::after, #popup.popup-wrapper .popup-content .popup-closer:focus::after, #popup.popup-wrapper .popup-content .popup-closer:focus-within::after {
+  transform: translateX(100%);
+  opacity: 1;
+}
+#popup.popup-wrapper .popup-content .popup-closer::before {
+  margin-right: unset;
+  transition: color 0.2s ease;
+}
+#popup.popup-wrapper .popup-content .popup-closer:hover::before, #popup.popup-wrapper .popup-content .popup-closer:focus::before {
+  color: hsla(220, 13%, 91%, 0.5);
+}
+
+/* PrismJS 1.30.0
+https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+json+json5+sass+scss */
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+code[class*=language-],
+pre[class*=language-] {
+  color: hsl(220, 13%, 91%);
+  background: none;
+  text-shadow: 0 1px hsl(0, 0%, 0%);
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-size: 1em;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+code[class*=language-]::selection,
+pre[class*=language-]::selection {
+  background: hsl(0, 0%, 100%);
+  color: hsl(226, 51%, 8%);
+}
+
+/* Code blocks */
+pre[class*=language-] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  border-radius: 0.3em;
+}
+
+:not(pre) > code[class*=language-],
+pre[class*=language-] {
+  background: hsla(0, 0%, 100%, 0.06);
+  overflow: auto;
+  max-width: 100%;
+  scrollbar-color: hsl(222, 47%, 11%) hsl(226, 51%, 8%);
+}
+
+/* Inline code */
+:not(pre) > code[class*=language-] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+  white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: hsl(210, 15%, 57%);
+}
+
+.token.punctuation {
+  color: hsl(220, 13%, 91%);
+}
+
+.token.namespace {
+  opacity: 0.7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: hsl(338, 95%, 56%);
+}
+
+.token.boolean,
+.token.number {
+  color: hsl(261, 100%, 75%);
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: hsl(80, 76%, 53%);
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  color: hsl(220, 13%, 91%);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+  color: hsl(54, 70%, 68%);
+}
+
+.token.keyword {
+  color: hsl(190, 81%, 67%);
+}
+
+.token.regex,
+.token.important {
+  color: hsl(32, 98%, 56%);
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}/*# sourceMappingURL=style.css.map */
