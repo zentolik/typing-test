@@ -2503,6 +2503,7 @@ select {
 }
 .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > * {
   color: hsl(0, 0%, 100%);
+  transition: color 0.2s ease;
   position: relative;
 }
 .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > *::after {
@@ -2535,10 +2536,10 @@ select {
 .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > *::before {
   margin-right: unset;
 }
-.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler]:hover, .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler]:focus {
+.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > *:hover, .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > *:focus {
   color: hsla(218, 11%, 65%, 0.65);
 }
-.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler]:hover > span::after, .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler]:focus > span::after {
+.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > *:hover > span::after, .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > *:focus > span::after {
   transform: translateX(100%);
   opacity: 1;
 }

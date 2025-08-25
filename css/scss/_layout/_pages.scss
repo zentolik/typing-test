@@ -46,21 +46,32 @@
                 z-index: 3;
                 > * {
                     color: _config($colorMap, 'light');
+                    transition: color .2s ease;
                     @include _title('Code anzeigen');
                     &::before {
                         margin-right: unset;
                     }
-                }
-                &:hover,
-                &:focus {
-                    color: _config($colorMap, 'muted', .65);
-                    > span {
-                        &::after {
-                            transform: translateX(100%);
-                            opacity: 1;
+                    &:hover,
+                    &:focus {
+                        color: _config($colorMap, 'muted', .65);
+                        > span {
+                            &::after {
+                                transform: translateX(100%);
+                                opacity: 1;
+                            }
                         }
                     }
                 }
+                // &:hover,
+                // &:focus {
+                //     color: _config($colorMap, 'muted', .65);
+                //     > span {
+                //         &::after {
+                //             transform: translateX(100%);
+                //             opacity: 1;
+                //         }
+                //     }
+                // }
             }
             #codeToggler {
                 display: none !important;
