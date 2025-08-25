@@ -7,17 +7,42 @@
     position: fixed;
     inset: 0;
     top: unset;
+    bottom: 1rem;
     display: flex;
     justify-content: center;
 
     button {
+        display: contents;
         cursor: pointer;
-        padding: unset;
-        border: unset;
-        background: unset;
+        transition: color .2s ease;
         @include _icon(stop);
         &::before {
+            padding: 5px;
             margin: unset !important;
+        }
+        &:hover,
+        &:focus {
+            color: _config($colorMap, 'muted');
+        }
+        &:active {
+            color: _config($colorMap, 'accent');
+        }
+    }
+
+    progress {
+        display: block;
+        border-radius: 16px; 
+        cursor: pointer;
+        &::-webkit-progress-bar {
+            background-color: _config($colorMap, 'light');
+            border-radius: 100px;
+            overflow: hidden;
+        }
+        &::-webkit-progress-value {
+            background-color: _config($colorMap, 'accent');
+            border-radius: 0;
+        }
+        &::-moz-progress-bar {
         }
     }
 
@@ -26,9 +51,20 @@
         justify-content: space-between;
         gap: 50px;
         align-items: center;
-        background: rgba(255, 0, 0, 0.61);
+        background: _config($colorMap, 'light', .03);
+        border: 1px solid _config($colorMap, 'light', .06);
+        border-radius: 16px;
+        padding: 1rem 2.5rem;
+        box-shadow: _config($colorMap, 'shadow');
         max-width: _config($bpMap, 'huge');
         [data-mp__controls] {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            * {
+                font-size: 1rem
+            }
             [data-mp__prev] {
                 @include _icon-content(backward);
             }
@@ -43,9 +79,16 @@
             }
         }
         [data-mp__display] {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
             [data-mp__info] {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
                 [data-mp__title] {
-
+                    font-weight: bold;
+                    letter-spacing: 1px;
                 }
                 [data-mp__settings] {
                     [data-mp__loop] { // true / false
@@ -57,9 +100,16 @@
                 }
             }
             [data-mp__track] {
-
+                width: 500px;
+                max-width: calc(100vw - 360px);
+                height: 4px;
             }
             [data-mp__subinfo] {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: .75rem;
+                color: _config($colorMap, 'muted');
                 [data-mp__artist] {
 
                 }
@@ -69,11 +119,15 @@
             }
         }
         [data-mp__volume] {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
             [data-mp__audio] { // mute / low / medium / high
                 @include _icon-content(volume-medium);
             }
             [data-mp__track] {
-
+                height: 6px;
             }
         }
     }

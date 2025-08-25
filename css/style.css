@@ -1280,6 +1280,312 @@
   margin-right: unset;
 }
 
+.icon-volume-mute:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea29";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-volume-mute.icon-after::after {
+  display: inline-block;
+  content: "\ea29";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-volume-mute.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-volume-mute2:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea2a";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-volume-mute2.icon-after::after {
+  display: inline-block;
+  content: "\ea2a";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-volume-mute2.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-volume-decrease:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea2c";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-volume-decrease.icon-after::after {
+  display: inline-block;
+  content: "\ea2c";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-volume-decrease.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-volume-increase:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea2b";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-volume-increase.icon-after::after {
+  display: inline-block;
+  content: "\ea2b";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-volume-increase.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-volume-low:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea28";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-volume-low.icon-after::after {
+  display: inline-block;
+  content: "\ea28";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-volume-low.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-volume-medium:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea27";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-volume-medium.icon-after::after {
+  display: inline-block;
+  content: "\ea27";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-volume-medium.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-volume-high:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea26";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-volume-high.icon-after::after {
+  display: inline-block;
+  content: "\ea26";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-volume-high.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-loop:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea2d";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-loop.icon-after::after {
+  display: inline-block;
+  content: "\ea2d";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-loop.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-shuffle:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea30";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-shuffle.icon-after::after {
+  display: inline-block;
+  content: "\ea30";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-shuffle.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
 .icon-play:not(.icon-after)::before {
   display: inline-block;
   content: "\ea1c";
@@ -1445,6 +1751,142 @@
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-forward.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-previous:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea23";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-previous.icon-after::after {
+  display: inline-block;
+  content: "\ea23";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-previous.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-next:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea24";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-next.icon-after::after {
+  display: inline-block;
+  content: "\ea24";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-next.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-first:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea21";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-first.icon-after::after {
+  display: inline-block;
+  content: "\ea21";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-first.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+
+.icon-last:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea22";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-last.icon-after::after {
+  display: inline-block;
+  content: "\ea22";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-last.icon-right::before {
   float: right;
   margin-left: 0.4em;
   margin-right: unset;
@@ -2464,8 +2906,8 @@ body[data-status=app-running] .app-header .controls-wrapper .controls .timer-wra
   border: 1px solid hsla(0, 0%, 100%, 0.06);
   border-radius: 16px;
   padding: 1rem;
-  height: 6.5rem;
   box-shadow: "0 10px 25px hsla(0,0%,0%,.35)";
+  height: 6.5rem;
   overflow-y: hidden;
 }
 
@@ -2878,14 +3320,14 @@ pre[class*=language-] {
   position: fixed;
   inset: 0;
   top: unset;
+  bottom: 1rem;
   display: flex;
   justify-content: center;
 }
 [data-mp__container] button {
+  display: contents;
   cursor: pointer;
-  padding: unset;
-  border: unset;
-  background: unset;
+  transition: color 0.2s ease;
 }
 [data-mp__container] button:not(.icon-after)::before {
   display: inline-block;
@@ -2921,15 +3363,49 @@ pre[class*=language-] {
   margin-right: unset;
 }
 [data-mp__container] button::before {
+  padding: 5px;
   margin: unset !important;
+}
+[data-mp__container] button:hover, [data-mp__container] button:focus {
+  color: hsl(218, 11%, 65%);
+}
+[data-mp__container] button:active {
+  color: hsl(239, 84%, 67%);
+}
+[data-mp__container] progress {
+  display: block;
+  border-radius: 16px;
+  cursor: pointer;
+}
+[data-mp__container] progress::-webkit-progress-bar {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 100px;
+  overflow: hidden;
+}
+[data-mp__container] progress::-webkit-progress-value {
+  background-color: hsl(239, 84%, 67%);
+  border-radius: 0;
 }
 [data-mp__container] [data-mp__player] {
   display: flex;
   justify-content: space-between;
   gap: 50px;
   align-items: center;
-  background: rgba(255, 0, 0, 0.61);
+  background: hsla(0, 0%, 100%, 0.03);
+  border: 1px solid hsla(0, 0%, 100%, 0.06);
+  border-radius: 16px;
+  padding: 1rem 2.5rem;
+  box-shadow: "0 10px 25px hsla(0,0%,0%,.35)";
   max-width: 1200px;
+}
+[data-mp__container] [data-mp__player] [data-mp__controls] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+[data-mp__container] [data-mp__player] [data-mp__controls] * {
+  font-size: 1rem;
 }
 [data-mp__container] [data-mp__player] [data-mp__controls] [data-mp__prev]::before {
   content: "\ea1f";
@@ -2943,8 +3419,23 @@ pre[class*=language-] {
 [data-mp__container] [data-mp__player] [data-mp__controls] [data-mp__next]::before {
   content: "\ea20";
 }
+[data-mp__container] [data-mp__player] [data-mp__display] {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+[data-mp__container] [data-mp__player] [data-mp__display] [data-mp__info] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+[data-mp__container] [data-mp__player] [data-mp__display] [data-mp__info] [data-mp__title] {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
 [data-mp__container] [data-mp__player] [data-mp__display] [data-mp__info] [data-mp__settings] [data-mp__loop]:not(.icon-after)::before {
   display: inline-block;
+  content: "\ea2d";
   margin-right: 0.4em;
   font-family: "icomoon" !important;
   speak: never;
@@ -2958,6 +3449,7 @@ pre[class*=language-] {
 }
 [data-mp__container] [data-mp__player] [data-mp__display] [data-mp__info] [data-mp__settings] [data-mp__loop].icon-after::after {
   display: inline-block;
+  content: "\ea2d";
   margin-right: 0.4em;
   font-family: "icomoon" !important;
   speak: never;
@@ -2976,6 +3468,7 @@ pre[class*=language-] {
 }
 [data-mp__container] [data-mp__player] [data-mp__display] [data-mp__info] [data-mp__settings] [data-mp__shuffle]:not(.icon-after)::before {
   display: inline-block;
+  content: "\ea30";
   margin-right: 0.4em;
   font-family: "icomoon" !important;
   speak: never;
@@ -2989,6 +3482,7 @@ pre[class*=language-] {
 }
 [data-mp__container] [data-mp__player] [data-mp__display] [data-mp__info] [data-mp__settings] [data-mp__shuffle].icon-after::after {
   display: inline-block;
+  content: "\ea30";
   margin-right: 0.4em;
   font-family: "icomoon" !important;
   speak: never;
@@ -3004,4 +3498,28 @@ pre[class*=language-] {
   float: right;
   margin-left: 0.4em;
   margin-right: unset;
+}
+[data-mp__container] [data-mp__player] [data-mp__display] [data-mp__track] {
+  width: 500px;
+  max-width: calc(100vw - 360px);
+  height: 4px;
+}
+[data-mp__container] [data-mp__player] [data-mp__display] [data-mp__subinfo] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  color: hsl(218, 11%, 65%);
+}
+[data-mp__container] [data-mp__player] [data-mp__volume] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+[data-mp__container] [data-mp__player] [data-mp__volume] [data-mp__audio]::before {
+  content: "\ea27";
+}
+[data-mp__container] [data-mp__player] [data-mp__volume] [data-mp__track] {
+  height: 6px;
 }/*# sourceMappingURL=style.css.map */

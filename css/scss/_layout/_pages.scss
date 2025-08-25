@@ -290,8 +290,8 @@
     border: 1px solid _config($colorMap, 'light', .06);
     border-radius: 16px;
     padding: 1rem;
-    height: calc(2rem + 2rem + 2rem + .5rem);
     box-shadow: _config($colorMap, 'shadow');
+    height: calc(2rem + 2rem + 2rem + .5rem);
     overflow-y: hidden;
 }
 
