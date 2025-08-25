@@ -12,7 +12,8 @@
         <div class="controls-wrapper">
             <div class="controls-toggle-wrapper">
                 <label for="codeToggler">
-                    <span class="icon-embed"></span>
+                    <a class="icon-embed no-title" href="https://github.com/zentolik/typing-test" title="Code anzeigen" target="_blank"></a>
+                    <!-- <span class="icon-embed"></span> -->
                 </label>
                 <input id="codeToggler" type="checkbox">
                 <label for="controlsToggler">
@@ -134,6 +135,34 @@
     <div id="cursorTooltip" class="cursor-tooltip hidden">
         <span id="cursorTooltipTime"></span>
         <span id="cursorTooltipWords"></span>
+    </div>
+
+    <div data-mp__container>
+        <div data-mp__player>
+            <div data-mp__controls>
+                <button data-mp__prev></button>
+                <button data-mp__play="play"></button> <!-- play / pause -->
+                <button data-mp__next></button>
+            </div>
+            <div data-mp__display>
+                <div data-mp__info>
+                    <span data-mp__title> Song title </span>
+                    <div data-mp__settings>
+                        <button data-mp__loop="false"></button> <!-- true / false -->
+                        <button data-mp__shuffle="false"></button> <!-- true / false -->
+                    </div>
+                </div>
+                <progress data-mp__track value="0" max="100"> 00:00 </progress>
+                <div data-mp__subinfo>
+                    <span data-mp__artist> Artist name</span>
+                    <span data-mp__duration> 00:00 </span>
+                </div>
+            </div>
+            <div data-mp__volume> 
+                <button data-mp__audio="medium"></button> <!-- mute / low / medium / high -->
+                <progress data-mp__track value="50" max="100"> 0% </progress>
+            </div>
+        </div>
     </div>
 
     <script src="./js/script.js" defer></script>

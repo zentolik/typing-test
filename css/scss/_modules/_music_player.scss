@@ -3,3 +3,78 @@
  * @author zentolik
  */
 
+[data-mp__container] {
+    position: fixed;
+    inset: 0;
+    top: unset;
+    display: flex;
+    justify-content: center;
+
+    button {
+        cursor: pointer;
+        padding: unset;
+        border: unset;
+        background: unset;
+        @include _icon(stop);
+        &::before {
+            margin: unset !important;
+        }
+    }
+
+    [data-mp__player] {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: center;
+        background: rgba(255, 0, 0, 0.61);
+        max-width: _config($bpMap, 'huge');
+        [data-mp__controls] {
+            [data-mp__prev] {
+                @include _icon-content(backward);
+            }
+            [data-mp__play="play"] {
+                @include _icon-content(play);
+            }
+            [data-mp__play="stop"] {
+                @include _icon-content(stop);
+            }
+            [data-mp__next] {
+                @include _icon-content(forward);
+            }
+        }
+        [data-mp__display] {
+            [data-mp__info] {
+                [data-mp__title] {
+
+                }
+                [data-mp__settings] {
+                    [data-mp__loop] { // true / false
+                        @include _icon(loop);
+                    }
+                    [data-mp__shuffle] { // true / false
+                        @include _icon(shuffle);
+                    }
+                }
+            }
+            [data-mp__track] {
+
+            }
+            [data-mp__subinfo] {
+                [data-mp__artist] {
+
+                }
+                [data-mp__duration] {
+
+                }
+            }
+        }
+        [data-mp__volume] {
+            [data-mp__audio] { // mute / low / medium / high
+                @include _icon-content(volume-medium);
+            }
+            [data-mp__track] {
+
+            }
+        }
+    }
+}

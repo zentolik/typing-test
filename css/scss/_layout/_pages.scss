@@ -44,7 +44,8 @@
                 align-items: center;
                 cursor: pointer;
                 z-index: 3;
-                > span {
+                > * {
+                    color: _config($colorMap, 'light');
                     @include _title('Code anzeigen');
                     &::before {
                         margin-right: unset;

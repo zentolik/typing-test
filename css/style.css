@@ -2059,10 +2059,11 @@ select {
   cursor: pointer;
   z-index: 3;
 }
-.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > span {
+.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > * {
+  color: hsl(0, 0%, 100%);
   position: relative;
 }
-.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > span::after {
+.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > *::after {
   position: absolute;
   display: block;
   content: "Code anzeigen";
@@ -2085,11 +2086,11 @@ select {
   transform: translateX(75%);
   right: 0;
 }
-.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > span:hover::after, .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > span:focus::after, .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > span:focus-within::after {
+.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > *:hover::after, .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > *:focus::after, .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > *:focus-within::after {
   transform: translateX(100%);
   opacity: 1;
 }
-.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > span::before {
+.app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler] > *::before {
   margin-right: unset;
 }
 .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler]:hover, .app-header .controls-wrapper .controls-toggle-wrapper [for=codeToggler]:focus {
@@ -2867,4 +2868,140 @@ pre[class*=language-] {
 
 .token.entity {
   cursor: help;
+}
+
+/**
+ * html, scss and js (…json)
+ * @author zentolik
+ */
+[data-mp__container] {
+  position: fixed;
+  inset: 0;
+  top: unset;
+  display: flex;
+  justify-content: center;
+}
+[data-mp__container] button {
+  cursor: pointer;
+  padding: unset;
+  border: unset;
+  background: unset;
+}
+[data-mp__container] button:not(.icon-after)::before {
+  display: inline-block;
+  content: "\ea1e";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[data-mp__container] button.icon-after::after {
+  display: inline-block;
+  content: "\ea1e";
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[data-mp__container] button.icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+[data-mp__container] button::before {
+  margin: unset !important;
+}
+[data-mp__container] [data-mp__player] {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+  background: rgba(255, 0, 0, 0.61);
+  max-width: 1200px;
+}
+[data-mp__container] [data-mp__player] [data-mp__controls] [data-mp__prev]::before {
+  content: "\ea1f";
+}
+[data-mp__container] [data-mp__player] [data-mp__controls] [data-mp__play=play]::before {
+  content: "\ea1c";
+}
+[data-mp__container] [data-mp__player] [data-mp__controls] [data-mp__play=stop]::before {
+  content: "\ea1e";
+}
+[data-mp__container] [data-mp__player] [data-mp__controls] [data-mp__next]::before {
+  content: "\ea20";
+}
+[data-mp__container] [data-mp__player] [data-mp__display] [data-mp__info] [data-mp__settings] [data-mp__loop]:not(.icon-after)::before {
+  display: inline-block;
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[data-mp__container] [data-mp__player] [data-mp__display] [data-mp__info] [data-mp__settings] [data-mp__loop].icon-after::after {
+  display: inline-block;
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[data-mp__container] [data-mp__player] [data-mp__display] [data-mp__info] [data-mp__settings] [data-mp__loop].icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
+}
+[data-mp__container] [data-mp__player] [data-mp__display] [data-mp__info] [data-mp__settings] [data-mp__shuffle]:not(.icon-after)::before {
+  display: inline-block;
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[data-mp__container] [data-mp__player] [data-mp__display] [data-mp__info] [data-mp__settings] [data-mp__shuffle].icon-after::after {
+  display: inline-block;
+  margin-right: 0.4em;
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[data-mp__container] [data-mp__player] [data-mp__display] [data-mp__info] [data-mp__settings] [data-mp__shuffle].icon-right::before {
+  float: right;
+  margin-left: 0.4em;
+  margin-right: unset;
 }/*# sourceMappingURL=style.css.map */
