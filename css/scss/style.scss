@@ -1,11 +1,11 @@
 @import './config_function';
 @import './config';
-@import './functions';
-@import './icons';
-@import './globals';
-@import './helpers';
-@import './pages';
-@import './popup';
+@import './_layout/functions';
+@import './_layout/icons';
+@import './_layout/globals';
+@import './_layout/helpers';
+@import './_layout/pages';
+@import './_layout/popup';
 
 // modules
 @import './_modules/prism';
