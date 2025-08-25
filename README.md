@@ -10,13 +10,13 @@
 5. `npm run watch-config` → automatically regenerates as soon as you save **config.json** 
 
 **projekt-root/**
-│
-└─ **css/**
-│ └─ **scss/**
-│ㅤ└─ **config.json** *← centraal* configKommentaren#
-│ㅤ└─ **_config.scss** *← generated scss*
-│ㅤ└─ ... *← other styles and stuff*
-│
-└─ **generate-scss.js** *← script for convertion*
-└─ **package.json** *← node/NPM configuration*
-└─ **node_modules/** *← automatically installed by* npm
+- │
+- └─ **css/**
+- │ └─ **scss/**
+- │ㅤ└─ **config.json** *← centraal* configKommentaren#
+- │ㅤ└─ **_config.scss** *← generated scss*
+- │ㅤ└─ ... *← other styles and stuff*
+- │
+- └─ **generate-scss.js** *← script for convertion*
+- └─ **package.json** *← node/NPM configuration*
+- └─ **node_modules/** *← automatically installed by* npm
