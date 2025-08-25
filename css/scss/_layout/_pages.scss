@@ -1,5 +1,5 @@
 .app-header, .app-footer {
-    max-width: 1200px;
+    max-width: _config($bpMap, 'huge');
     margin: 0 auto;
     padding: 1rem;
 }
@@ -277,7 +277,7 @@
 }
 
 .app-main {
-    max-width: 1200px;
+    max-width: _config($bpMap, 'huge');
     margin: 0 auto;
     padding: 1rem;
     display: grid;
