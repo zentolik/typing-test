@@ -8,7 +8,8 @@
 > 	**you should get the following response in terminal:**
 > ✅ css/scss/_config.scss erfolgreich generiert!
 5. `npm run watch-config` → automatically regenerates as soon as you save **config.json** 
-
+---
+---
 **projekt-root/**
 - │
 - └─ **css/**
